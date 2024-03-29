@@ -1,0 +1,139 @@
+body {
+    font-family: "Poppins", sans-serif;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.team-container {
+    padding: 0 50px;
+}
+
+.team-header {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.team-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+}
+
+.team-content {
+    width: 400px;
+}
+
+.team-content-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+
+.team-content-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 12px;
+}
+
+.team-collage-section {
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-top: 80px;
+    /* justify-content: space-between; */
+}
+
+#team-collage-two {
+    margin-top: 80px;
+}
+
+#team-collage-five {
+    margin-top: 80px;
+}
+
+.team-collage {
+    display: flex;
+
+}
+
+.team img {
+    width: 240px;
+    margin-bottom: 0;
+}
+
+.team-title {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.team {}
+
+.team-description {
+    margin: 0;
+    writing-mode: vertical-lr;
+}
+
+.team-description p {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+
+
+
+/* Responsive small device */
+@media screen and (max-width: 576px) {
+    .team-header {
+        flex-direction: column;
+    }
+    .team-header h2{
+        font-size: 26px;
+    }
+    .team-collage-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+        width: 151px;
+    }
+
+    .team-collage {
+        width: 140px;
+    }
+
+    .team img {
+        width: 140px;
+        margin-bottom: 0;
+    }
+
+    /* .team-header{
+        width: 240px;
+    } */
+    .team-content-description {
+        width: 240px;
+        font-size: 12px;
+    }
+    .team-container {
+        padding: 0 50px;
+    }
+    body{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #team-collage-five {
+        margin-top: 0;
+    }
+    #team-collage-four{
+        margin-top: 80px;
+    }
+    #team-collage-six{
+        margin-top: 80px;
+    }
+}
